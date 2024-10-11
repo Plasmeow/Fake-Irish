@@ -383,11 +383,8 @@ margin-bottom: 5px;
 
 /*grønn gradering*/
 #grad1 {
-  height: 500px;
+  min-height: 20%;
+  max-height: 60%;
   background-color: rgba(255, 255, 255, 0); /* For browsers that do not support gradients */
   background-image: linear-gradient(rgba(255, 255, 255, 0), green);
-  margin: 0px;
-@media screen and (max-width: 900px) and (min-width: 735px) {
-  height: 300px;
-   }
 }
