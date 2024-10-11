@@ -383,9 +383,7 @@ margin-bottom: 5px;
 
 /*grønn gradering*/
 #grad1 {
-  height: 300px;
+  height: 400px;
   background-color: rgba(255, 255, 255, 0); /* For browsers that do not support gradients */
   background-image: linear-gradient(rgba(255, 255, 255, 0), green);
-  position:relative;
-  bottom:0;
 }
