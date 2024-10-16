@@ -1,6 +1,6 @@
 
 /*Hei Bent! Jeg prøvde å kode dette om, men siden jeg ikke vet helt hvordan jeg skal få den nye versjonen til å se så lik ut 
-denne som mulig, så kommer jeg (kanskje) tilbake til dette  senere (testene er de som har "copia" etter seg).
+denne som mulig, så kommer jeg (kanskje) tilbake til dette  senere.
 
 Jeg har sortert og rengjort litt*/
 
@@ -120,8 +120,8 @@ a.four:link {color: black; text-decoration: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter;}
 a.four:visited {color: black; text-decoration: none;}
-a.four:hover {color: green; text-decoration: underline;}
-a.four:active {color: green; text-decoration: none;}
+a.four:hover {color: rgb(2, 69, 2); text-decoration: underline;}
+a.four:active {color: rgb(2, 69, 2); text-decoration: none;}
 
 /*forside*/
 /*banner, gjort om til bilde*/
@@ -387,6 +387,14 @@ margin-bottom: 5px;
   margin-left: 40px;
   margin-right: auto;
   width: 50%;
+  height: auto;
+}
+
+.center-3 {
+  display: block;
+  margin-left: 40px;
+  margin-right: auto;
+  width: 15%;
   height: auto;
 }
 
